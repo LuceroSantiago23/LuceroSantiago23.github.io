@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
             var warning = document.getElementById("warning");
 
             if (email === "" || password === "") {
-                warning.textContent = "Por favor, completa todos los campos.";
+                warning.textContent = "ingresa un caracter correcto.";
             } else if (password.length <= 8) {
                 warning.textContent = "La contraseña debe tener más de 8 caracteres.";
             } else {
